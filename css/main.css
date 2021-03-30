@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	background-image: url("../images/Background.png");
+	background-position: top center;
+	background-size: cover;
+	font-family: 'CustomFont';
+	color:#c70a0a;
+	background-color: #3A3335;
+	opacity: 0.9;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#3A3335; 
+	text-align: justify;
+	
+} 
+
+.text{
+	padding:4%;	
+	margin:4%;
+	border-style: groove;
+	border-collapse: collapse;
+}
+.images{
+	margin:3%;
+	padding: 1.5%;
+	border-style: groove;
+	border-collapse: collapse;
+}
+.about{
+	
+	font-weight:bold; 
+	background-color: #A31621;
+	text-align:left;
+	padding:1%;
+	border-style: groove;
+	
+}
+a {font-weight:bold; background-color: #3A3335;}
+a:link { color:white;}
+a:visited { color:white; }
+
+@font-face {
+	font-family: "Witcher";
+	src: url("witcher-font.ttf") format("truetype");
+	}
+
+.container {
+	width:980px;
+	height: 1205px;	
+	margin: 70px auto 70px auto;
+}
+header {
+	width: 980px;
+	height: 40px;
+}
+
+nav {
+	width: 980px;
+	height: 160px; margin-bottom: 20%;
+	text-align: right;
+	font-size: 28px;
+	font-family: "Witcher"; 
+}
+
+nav a {
+	text-decoration: none;
+	margin:  10px 5px 0px 5px;
+}
+.featuredimage {
+	margin: 20px 0px 20px 0px;
+}
+
+h1 {
+	margin: 4%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	
+	font-family: "Witcher";
+}
+
+h2 {
+	margin: 10px 0px 15px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: "Witcher";
+}
+
+.mainbody {
+	width: 980px;
+	height: 600px;
+	
+}
+.leftcol{
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	float:left;
+	text-align: center;
+	font-size: 16px;
+	
+	text-transform: uppercase;
+}
+.rightcol{
+	width:360px;
+	height:600px;
+	background-color: white;
+	float:left; 
+	margin-left: 20px;
+	
+	text-align: center;
+}
+
+.rightcol img{
+	margin: 4px;
+}
+
+footer{
+	margin: 20px 0px 20px 0px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: white;
+	margin-top: 20px;
+	text-align: center;
+	font-family: "Witcher";
+	font-size: 130%;
+	
+	
+}
